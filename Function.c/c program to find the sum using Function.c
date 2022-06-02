@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<conio.h>
+#include <math.h>
 
 int sum(int a, int b);
 int main() 
@@ -7,7 +7,7 @@ int main()
     int result = sum(2,3);
   
     printf("sum= %d", result);
-    getch();
+    
 }
 
 int sum(int a, int b){
